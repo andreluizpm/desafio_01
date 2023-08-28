@@ -1,0 +1,18 @@
+@import url('normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+:root {
+  
+  --gradient: hsl(249, 99%, 64%);
+  --gradient2:  hsl(278, 94%, 30%);
+  --error: hsl(0, 100%, 66%);
+  --white: hsl(0, 0%, 100%);
+  --light-violet: hsl(270, 3%, 87%);
+  --dark-violet: hsl(279, 6%, 55%);
+  --very-dark-violet: hsl(278, 68%, 11%);
+}
+
+body {
+  font-size: 18px;
+  font-family: 'Space Grotesk', sans-serif;
+}

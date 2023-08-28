@@ -1,0 +1,56 @@
+.frontCard {
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    height: 245px;
+    width: 440px;
+    background: url("../img/bg-card-front.png") no-repeat;
+    box-shadow: rgba(0, 0, 0, 0.507) 1px 1px 20px;
+    border-radius: 10px;
+}
+
+.boll {
+    height: 50px;
+    width: 100%;
+    background-image: url('../img/card-logo.svg');
+    background-repeat: no-repeat;
+    margin: 15px 0px 0px 25px;
+  
+}
+.backCard {
+    position: absolute;
+    top: 330px;
+    left: 180px;
+    box-shadow: rgba(0, 0, 0, 0.507) 1px 1px 20px;
+    height: 245px;
+    width: 440px;
+    background: url("../img/bg-card-back.png") no-repeat;
+    border-radius: 10px;
+}
+
+.backCard p{
+    position: absolute;
+    color: white;
+    top: 110px;
+    right: 50px;
+    font-size: medium;
+}
+
+.numbercardcontainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 35px;
+    font-size: cover;
+}
+
+.container-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    margin-top: 20px;
+    font-size: small;
+}

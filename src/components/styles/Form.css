@@ -1,0 +1,62 @@
+form {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+form label {
+    margin-bottom: 5px;
+    color: hsl(278, 68%, 11%);
+}
+
+form input {
+    margin-bottom: 20px;
+    width: 400px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    color: hsl(279, 6%, 55%);
+    border: hsl(270, 3%, 87%) 1px solid;
+}
+
+#cvc{
+    margin-left: 55px;
+}
+
+#expYY , #expMM {
+    width: 70px;
+    
+}
+
+#expYY {
+    margin-left: 15px;
+}
+
+#cvv {
+    width: 190px;
+    margin-left: 30px;
+}
+
+#confirm {
+    height: 40px;
+    border-radius: 5px;
+    background-color: hsl(278, 68%, 11%);
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+}
+
+.error {
+    position: fixed;
+    top: 1%;
+    right: 5px;
+    color: white;
+    background-color: rgb(190, 21, 21);
+    border-radius: 25px;
+    padding: 50px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}

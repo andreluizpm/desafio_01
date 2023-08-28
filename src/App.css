@@ -1,0 +1,19 @@
+@import url('index.css');
+
+.ContainerCard {
+  position: relative;
+  float: left;
+  height: 100vh;
+  width: 40vw;
+  background: url('components/img/bg-main-desktop.png') no-repeat;
+}
+
+.ContainerForm {
+  float: right;
+  background-color: hsl(0, 0%, 100%);
+  height: 100vh;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
